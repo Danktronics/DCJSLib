@@ -2,13 +2,13 @@
 The official library for interacting with the Danktronics Chat API
 
 ## Installation
-`npm install dcjslib`
+`npm install dcjs`
 
 ## Example
 
 ### Creating a connection and sending a message
 ```js
-const DC = require("dcjslib");
+const DC = require("dcjs");
 const client = new DC("token");
 
 client.on("ready", () => {

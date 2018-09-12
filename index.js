@@ -2,8 +2,8 @@
 
 const Client = require("./lib/Client");
 
-function DC(token) {
-    return new Client(token);
+function DC(...args) {
+    return new Client(...args);
 }
 
 module.exports = DC;

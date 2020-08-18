@@ -15,8 +15,8 @@ client.on("ready", () => {
     console.log("Connected to Danktronics Chat.");
 });
 
-client.on("message", message => {
-    message.server.send("wow");
+client.on("messageCreate", message => {
+    message.channel.createMessage("message received");
 });
 
 client.connect();

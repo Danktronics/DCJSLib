@@ -1,0 +1,18 @@
+{
+  "name": "dcjs",
+  "version": "3.0.0",
+  "description": "JS client for Danktronics Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Danktronics",
+    "Chat"
+  ],
+  "author": "Sei4or <sei4or@danktronics.org> (https://danktronics.org)",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^6.0.0"
+  }
+}
